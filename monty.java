@@ -31,7 +31,22 @@ public class monty{
                     wrong++;
                 }
             }
-            System.out.println("Right: "+ right + " Wrong: " + wrong);
         }
+        System.out.println("Stats when you change: \n" + "Right: "+ right + " Wrong: " + wrong);
+
+        right = 0;
+        wrong = 0;
+        for(int a = 0; a < 100000; a++){
+            int car = (int)(Math.random()*3);
+            int choose = (int)(Math.random()*3);
+    
+            List<Integer> possible = new ArrayList<>();
+            if (choose != car){
+                wrong++;
+            }else{
+                right++;
+            }
+        }
+        System.out.println("Stats when you don't change: \n" + "Right: "+ right + " Wrong: " + wrong);
     }
 }
