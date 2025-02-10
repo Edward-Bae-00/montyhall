@@ -1,7 +1,13 @@
-This code simulates the famous statistics\brain teaser called the Monty Hall problem.
+<h1>Monty Hall Simulator</h1>
 
-It simulates when you actually change doors and when you actually stick with the door you chose.
+<h2>Overview</h2>
+Reading over the Monty Hall Problem in my stats class I got very confused and the statistical breakdowns seemed intuitively incorrect. For that reason, I developed this simulation of Monty all problem that simulates the two scenarios when you change the door after the host gives you a door and when you actually stick with the door you choose. I did it so that I could better visualize the problem and confirm that the statistics behind the Monty Hall Problem is correct.
 
-To get the results you just have to run the java code and it will show how many times you won and how many times you lost when the monty hall problem is done 100,000 times. 100,000 simulations are done so the numbers would average to around 66% and 33% depending on if you change doors or not.
 
-The reason that I chose to write this code was so that I could better visualize the problem as the problem appears to go against my intuition. Running the simulations, I am better able to visualize the data.
+<h2>Requirement To Use</h2>
+Any software that runs java code
+
+<h2>How to run the application: </h2>
+Download the code and run!
+
+When the code is run, the results will be printed right away of the 100,000 simulations of when you change doors and when you stick with the door you initially chose. Running 100,000 simulations, the numbers average around 66% and 33% depending on whether you change doors or not.
